@@ -25,7 +25,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
 
-  # DOCKER HUB -
+  # DOCKER HUB
   docker:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
